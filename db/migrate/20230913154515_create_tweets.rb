@@ -1,6 +1,6 @@
-class CreateApiV1Tweets < ActiveRecord::Migration[7.0]
+class CreateTweets < ActiveRecord::Migration[7.0]
   def change
-    create_table :api_v1_tweets do |t|
+    create_table :tweets do |t|
       t.text :text
       t.integer :comments
       t.integer :likes
